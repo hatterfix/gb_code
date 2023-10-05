@@ -57,6 +57,15 @@ double intB = 3 ;
 Console.Write(intA / intB);
 ```
 
+- Случайные числа (возвращает целое число от min до max , или от min до max-1):
+
+```sh
+new Random().Next(min,max);
+
+double intA = new Random().Next(1, 10) ;
+double intB = new Random().Next(1, 10) ;
+Console.Write(intA / intB);
+```
 
 
 </details>
