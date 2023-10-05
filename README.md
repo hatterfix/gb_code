@@ -37,3 +37,7 @@ Console.Write("something");
 Console.Write("something");
 string username = Console.ReadLine();
 ```
+
+#### Примечание:
+
+Публичный [.gitignore](https://github.com/github/gitignore/blob/main/VisualStudio.gitignore) для vscode.
