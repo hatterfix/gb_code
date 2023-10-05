@@ -72,6 +72,19 @@ Console.Write(intA / intB);
 ```sh
 if(user.ToLower() == "аня")
 
+```
 
+- Очистить консоль перед каждым запуском:
+
+```sh
+Console.Clear() ;
+```
+
+- Добавить отступ от левого и от верхнего края:
+
+```sh
+Console.SetCursorPosition(x,y) ;
+
+```
 
 </details>
