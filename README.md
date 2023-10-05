@@ -67,5 +67,11 @@ double intB = new Random().Next(1, 10) ;
 Console.Write(intA / intB);
 ```
 
+- Автоеревод значения переменной в нижний регистр (например, если вводим АНя, вместо аня)
+
+```sh
+if(user.ToLower() == "аня")
+
+
 
 </details>
