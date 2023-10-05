@@ -41,3 +41,11 @@ string username = Console.ReadLine();
 #### Примечание:
 
 Публичный [.gitignore](https://github.com/github/gitignore/blob/main/VisualStudio.gitignore) для vscode.
+
+
+- Объявить целочисленную переменную:
+
+```sh
+int intA = 7
+```
+
