@@ -27,7 +27,9 @@ dotnet run
 
 - Базовые команды:
 
-Вывод данных: ```sh Console.Write("something");
+Вывод данных:
+```sh 
+Console.Write("something");
 ```
 
 Считать данные c записью в переменную: 
