@@ -1,0 +1,15 @@
+/home/hatter/git/gb_code/c#/examples/hu/obj/Debug/net6.0/hu.csproj.AssemblyReference.cache
+/home/hatter/git/gb_code/c#/examples/hu/obj/Debug/net6.0/hu.GeneratedMSBuildEditorConfig.editorconfig
+/home/hatter/git/gb_code/c#/examples/hu/obj/Debug/net6.0/hu.AssemblyInfoInputs.cache
+/home/hatter/git/gb_code/c#/examples/hu/obj/Debug/net6.0/hu.AssemblyInfo.cs
+/home/hatter/git/gb_code/c#/examples/hu/obj/Debug/net6.0/hu.csproj.CoreCompileInputs.cache
+/home/hatter/git/gb_code/c#/examples/hu/bin/Debug/net6.0/hu
+/home/hatter/git/gb_code/c#/examples/hu/bin/Debug/net6.0/hu.deps.json
+/home/hatter/git/gb_code/c#/examples/hu/bin/Debug/net6.0/hu.runtimeconfig.json
+/home/hatter/git/gb_code/c#/examples/hu/bin/Debug/net6.0/hu.dll
+/home/hatter/git/gb_code/c#/examples/hu/bin/Debug/net6.0/ref/hu.dll
+/home/hatter/git/gb_code/c#/examples/hu/bin/Debug/net6.0/hu.pdb
+/home/hatter/git/gb_code/c#/examples/hu/obj/Debug/net6.0/hu.dll
+/home/hatter/git/gb_code/c#/examples/hu/obj/Debug/net6.0/ref/hu.dll
+/home/hatter/git/gb_code/c#/examples/hu/obj/Debug/net6.0/hu.pdb
+/home/hatter/git/gb_code/c#/examples/hu/obj/Debug/net6.0/hu.genruntimeconfig.cache
