@@ -25,3 +25,13 @@ dotnet run
 ```
 
 
+- Базовые команды:
+
+Вывод данных: ```sh Console.Write("something");
+```
+
+Считать данные c записью в переменную: 
+```sh
+Console.Write("something");
+string username = Console.ReadLine();
+```
