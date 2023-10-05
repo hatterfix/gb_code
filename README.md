@@ -1,7 +1,7 @@
 # gb_code
 Geekbrains study examples
 
-### c#
+<details><summary><b>### C#</b></summary>
 
 - Вспомогательный софт: [Microsoft .NET SDK 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
 
@@ -48,4 +48,5 @@ string username = Console.ReadLine();
 ```sh
 int intA = 7
 ```
+</details>
 
