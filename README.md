@@ -3,9 +3,13 @@ Geekbrains study examples
 
 <details><summary><b>### C#</b></summary>
 
+#### Примечание:
+
+- Публичный [.gitignore](https://github.com/github/gitignore/blob/main/VisualStudio.gitignore) для vscode.
+
 - Вспомогательный софт: [Microsoft .NET SDK 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
 
-- Установка в Ubuntu 22.04
+###  Установка в Ubuntu 22.04
 
 ```sh
 sudo apt-get update && \
@@ -25,22 +29,18 @@ dotnet run
 ```
 
 
-- Базовые команды:
+###  Базовые команды:
 
-Вывод данных:
+- Вывод данных:
 ```sh 
 Console.Write("something");
 ```
 
-Считать данные c записью в переменную: 
+- Считать данные c записью в переменную типа string: 
 ```sh
 Console.Write("something");
 string username = Console.ReadLine();
 ```
-
-#### Примечание:
-
-Публичный [.gitignore](https://github.com/github/gitignore/blob/main/VisualStudio.gitignore) для vscode.
 
 
 - Объявить целочисленную переменную:
@@ -48,5 +48,15 @@ string username = Console.ReadLine();
 ```sh
 int intA = 7
 ```
-</details>
 
+- Объявить тип вещественного числа для переменной (например, для деления с остатком):
+
+```
+double intA = 20 ;
+double intB = 3 ;
+Console.Write(intA / intB);
+```
+
+
+
+</details>
