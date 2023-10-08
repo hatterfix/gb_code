@@ -132,4 +132,15 @@ else
 
 ```
 
+- Цикл for:
+
+Конструкция:
+
+```sh
+for (int i = -N ; i <= N ; i++)
+{
+Console.WriteLine(i);
+}
+```
+
 </details>

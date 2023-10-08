@@ -1,2 +1,2 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿// Код принимает на вход трёхзначное число и выводит последнюю цифру в нём
 Console.WriteLine("Hello, World!");
