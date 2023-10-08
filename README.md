@@ -108,5 +108,28 @@ Convert.ToInt32()
 int number = Convert.ToInt32(Console.ReadLine()) ;
 
 ```
+- Множественные условия в цикле (else if):
+
+Конструкция:
+
+```sh
+if (... something ...)
+(
+... make this .... ;
+)
+else if (...1st  other some ... ) 
+(
+... make that ... ;
+)
+else if (... 2nd other some ... ) 
+( 
+... make that ... ;
+)
+else 
+(
+... make different ... ;
+)
+
+```
 
 </details>
