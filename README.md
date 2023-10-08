@@ -144,3 +144,12 @@ Console.WriteLine(i);
 ```
 
 </details>
+
+- Остаток от деления = символ % ( в примере ниже - остаток от деления на 10)
+
+```sh
+if ( 99 < number && number < 1000) 
+{
+    Console.WriteLine($"{number%10} - последняя цифра в числе {number}") ;
+}
+```
