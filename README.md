@@ -36,7 +36,7 @@ dotnet run
 Console.Write("something");
 ```
 
-- Считать данные c записью в переменную типа string: 
+- Считать данные c записью в переменную - Метод ReadLine (по-умолчанию возвращает переменную типа string): 
 ```sh
 Console.Write("something");
 string username = Console.ReadLine();
@@ -87,4 +87,78 @@ Console.SetCursorPosition(x,y) ;
 
 ```
 
+- Методы конвертирования типа значений в integer:
+
+
+##### Не обработает пустую строку
+```sh
+ int.Parse()
+
+```
+
+##### Обработает пустую строку
+```sh
+Convert.ToInt32()
+
+```
+
+
+##### Пример конвертации типа переменной в ReadLine():
+```sh
+int number = Convert.ToInt32(Console.ReadLine()) ;
+
+```
+- Множественные условия в цикле (else if):
+
+Конструкция:
+
+```sh
+if (... something ...)
+(
+... make this .... ;
+)
+else if (...1st  other some ... ) 
+(
+... make that ... ;
+)
+else if (... 2nd other some ... ) 
+( 
+... make that ... ;
+)
+else 
+(
+... make different ... ;
+)
+
+```
+
+- Цикл for:
+
+Конструкция:
+
+```sh
+for (int i = -N ; i <= N ; i++)
+{
+Console.WriteLine(i);
+}
+```
+
+- Остаток от деления = символ % ( в примере ниже - остаток от деления на 10)
+
+```sh
+if ( 99 < number && number < 1000) 
+{
+    Console.WriteLine($"{number%10} - последняя цифра в числе {number}") ;
+}
+```
+
+- Вывод с отступом в табуляцию "\t":
+
+```sh
+{
+    Console.Write(i + "\t");
+
+}
+``` 
 </details>
+
