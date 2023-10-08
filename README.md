@@ -36,7 +36,7 @@ dotnet run
 Console.Write("something");
 ```
 
-- Считать данные c записью в переменную типа string: 
+- Считать данные c записью в переменную - Метод ReadLine (по-умолчанию возвращает переменную типа string): 
 ```sh
 Console.Write("something");
 string username = Console.ReadLine();
@@ -84,6 +84,28 @@ Console.Clear() ;
 
 ```sh
 Console.SetCursorPosition(x,y) ;
+
+```
+
+- Методы конвертирования типа значений в integer:
+
+
+##### Не обработает пустую строку
+```sh
+ int.Parse()
+
+```
+
+##### Обработает пустую строку
+```sh
+Convert.ToInt32()
+
+```
+
+
+##### Пример конвертации типа переменной в ReadLine():
+```sh
+int number = Convert.ToInt32(Console.ReadLine()) ;
 
 ```
 
