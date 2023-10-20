@@ -181,6 +181,9 @@ int number = Math.Abs(Convert.ToInt32(...)
 ```
 
 ```sh
+
+//Функция берет заданное число, считает сумму от 1 до числа и выводит результат
+
 int SumNumbers(int a)
 {
 	int sum = 0 ;
