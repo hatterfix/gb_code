@@ -184,10 +184,13 @@ int number = Math.Abs(Convert.ToInt32(...)
 int SumNumbers(int a)
 {
 	int sum = 0 ;
+	
 	for (int i =1; i <= a ; i++)
 	{
 	sum += i;
 	}
+
+	return sum ; //оператор перехода - принудительно завершает функцию и возвращает значение 
 }
 ```
 </details>
