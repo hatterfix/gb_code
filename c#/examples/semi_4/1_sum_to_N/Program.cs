@@ -22,3 +22,15 @@ Console.Write ("Введите число N: ") ;
 int number = Math.Abs(Convert.ToInt32(Console.ReadLine())) ;
 
 Console.WriteLine($"Сумма чисел от 1 до N = {SumNumbers(number)}"); //Выводим результат функции SumNumbers
+
+Console.WriteLine($"---------------------------------------------");
+
+Console.WriteLine($"Сумма чисел от 1 до N = {SumNumbers(5)}");
+
+Console.WriteLine($"---------------------------------------------");
+
+Console.WriteLine($"Сумма чисел от 1 до N = {SumNumbers(7)}");
+
+Console.WriteLine($"---------------------------------------------");
+
+Console.WriteLine($"Сумма чисел от 1 до N = {SumNumbers(9)}");
