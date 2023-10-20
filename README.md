@@ -159,6 +159,35 @@ if ( 99 < number && number < 1000)
     Console.Write(i + "\t");
 
 }
-``` 
-</details>
 
+```
+- Функция Math.Abs - возвращает абсолютное значение от числа 
+
+```sh
+
+int number = Math.Abs(Convert.ToInt32(...)
+
+```
+
+- Структура функции:
+
+```sh
+
+         _тип_данных_    _название_функции_  (_принимаемые параметры_)
+
+	{
+          _Тело функции
+	}
+```
+
+```sh
+int SumNumbers(int a)
+{
+	int sum = 0 ;
+	for (int i =1; i <= a ; i++)
+	{
+	sum += i;
+	}
+}
+```
+</details>
