@@ -5,4 +5,15 @@ int number = Math.Abs(Convert.ToInt32(Console.ReadLine())) ;
 
 // 1 способ - с использованием строк
 string strNum = Convert.ToString(number) ;
-Console.WriteLine ($"Количкство символов в числе = {strNum.Length}") ;
+Console.WriteLine ($"Количество символов в числе = {strNum.Length}") ;
+
+
+//2 способ - деление на 10
+int len = 0;
+
+while (number > 0)
+{
+    number/=10 ;
+    len++;
+}
+Console.WriteLine($"Количество символов в числе = {len}") ;
