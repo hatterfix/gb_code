@@ -25,13 +25,14 @@ int ReadInt(string text)
 System.Console.Write(text) ;
 return Convert.ToInt32(Console.ReadLine()) ;
 }
-
-bool FindElement(int[] array, int element)
+//Добавляем поиск еоличества элементов через модификатор:
+bool FindElement(int[] array, int element, out int count)
 {
+    count=0 ;
 for (int i = 0 ; i < array.Length ; i++)
-    if (array[i] == element) return true; // Сокращам синтаксис записи цикла
-
-    return false ;
+    if (array[i] == element) count++; // Сокращам синтаксис записи цикла
+if (count !=0) return true ;
+return false ;
 }   
 
 
@@ -42,13 +43,11 @@ intArrayPrint(array);
 
 int number = ReadInt("Введите искомое чтсло: ");
 
-bool key = FindElement(array, number);
-
 // Делаем вывод по условию.
-// синтаксис if(key) , при типе bool, по-умолчанию true 
-if(key)
+// Обрабатываем в ветвлении сразу функцию 
+if (FindElement(array, number, out int count))
 {
-    System.Console.WriteLine($"Ура! Число {number} есть в массиве!");
+    System.Console.WriteLine($"Ура! Число {number} есть в массиве! Количество = {count}");
 }
 else
 {
