@@ -238,4 +238,22 @@ string? ...
 
 Позволяют возвращать несколько значений из функции.
 Могут вызываться сразу внутри функций.
+
+Фактически передают значимый тип данных по ссылке:
+
+```sh
+void sumOfNegativeAndPositive(int[] array, out int sumPositive, out int sumNegative)
+
+// Для обработки внутри функции, значения модификаторов должны быть явно объявлены:
+    sumPositive = 0 ;
+    sumNegative = 0 ;
+
+// Вызов функции:
+
+ sumOfNegativeAndPositive(array, out int sumP, out int sumN);
+
+
+System.Console.WriteLine($"\nСумма положительных: {sumP}") ;
+System.Console.WriteLine($"\nСумма отрицательных: {sumN}") ;
+```
 </details>

@@ -27,30 +27,34 @@ void intArrayPrint(int[] arrayForPrint)
         }
     }
 
-int[] sumOfNegativeAndPositive(int[] array)
+void sumOfNegativeAndPositive(int[] array, out int sumPositive, out int sumNegative)
 {    
-    // Вариант реализации функции, с использованием массива:
-int[] sumNumbers = new int[2] ;
+     // Вариант реализации функции, с модификатором out внутри:
+    
+    // Значения модификаторов должны быть явно объявлены
+    sumPositive = 0 ;
+    sumNegative = 0 ;
 
 for (int i = 0 ; i < array.Length ; i++)
     {
        if (array[i] > 0)
        {
-        sumNumbers[0] += array[i] ;
+        sumPositive += array[i] ;
        }
        else 
-       sumNumbers[1] += array[i] ;
+       sumNegative += array[i] ;
     }
-    return sumNumbers ;
 }
 //-----------------------------------------------
 
 int[] array = generateArray(10 , -9 ,9) ;
 intArrayPrint(array);
 
-    // Вариант реализации функции, с использованием массива:
-int[] result = sumOfNegativeAndPositive(array);
+    // Вариант реализации функции, с модификатором out внутри:
+// т.к. функция типа void, присваивать ее ничему не торбуется
+// Однако, обязательно нужно объявить внутри модификаторы для обраюотки
+ sumOfNegativeAndPositive(array, out int sumP, out int sumN);
 
 
-System.Console.WriteLine($"\nСумма положительных: {result[0]}") ;
-System.Console.WriteLine($"\nСумма отрицательных: {result[1]}") ;
+System.Console.WriteLine($"\nСумма положительных: {sumP}") ;
+System.Console.WriteLine($"\nСумма отрицательных: {sumN}") ;
