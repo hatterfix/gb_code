@@ -26,23 +26,31 @@ void intArrayPrint(int[] arrayForPrint)
             System.Console.Write(arrayForPrint[i] + " ");
         }
     }
-//-----------------------------------------------
 
-int[] array = generateArray(10 , -9 ,9) ;
-intArrayPrint(array);
-
-int sumPositive = 0 ;
-int sumNegative = 0 ;
+int[] sumOfNegativeAndPositive(int[] array)
+{    
+    // Вариант реализации функции, с использованием массива:
+int[] sumNumbers = new int[2] ;
 
 for (int i = 0 ; i < array.Length ; i++)
     {
        if (array[i] > 0)
        {
-        sumPositive += array[i] ;
+        sumNumbers[0] += array[i] ;
        }
        else 
-       sumNegative += array[i] ;
+       sumNumbers[1] += array[i] ;
     }
+    return sumNumbers ;
+}
+//-----------------------------------------------
 
-System.Console.WriteLine($"\nСумма положительных: {sumPositive}") ;
-System.Console.WriteLine($"\nСумма отрицательных: {sumNegative}") ;
+int[] array = generateArray(10 , -9 ,9) ;
+intArrayPrint(array);
+
+    // Вариант реализации функции, с использованием массива:
+int[] result = sumOfNegativeAndPositive(array);
+
+
+System.Console.WriteLine($"\nСумма положительных: {result[0]}") ;
+System.Console.WriteLine($"\nСумма отрицательных: {result[1]}") ;
