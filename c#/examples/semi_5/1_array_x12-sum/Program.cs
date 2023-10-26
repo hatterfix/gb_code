@@ -26,6 +26,12 @@ void intArrayPrint(int[] arrayForPrint)
             System.Console.Write(arrayForPrint[i] + " ");
         }
     }
+// Функция вывода массива через метод Join
+// void intArrayJoin(int[] arrayForPrint)
+//         {
+
+//             System.Console.WriteLine("[" + string.Join(", ", arrayForPrint) + "]");
+//         }
 
 void sumOfNegativeAndPositive(int[] array, out int sumPositive, out int sumNegative)
 {    
