@@ -23,3 +23,5 @@ void ShowBinary(int num) //Рекурсивная функция - вызыва�
 
 int number = ReadInt("Введите число: ");
 ShowBinary (number);
+System.Console.WriteLine();
+Console.WriteLine(Convert.ToString(number ,16)); // вывод значения в шестнадцатиричной системе
