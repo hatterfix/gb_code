@@ -1,5 +1,7 @@
 ﻿//  Код вычисления функции Аккермана с помощью рекурсии.
 // Учитывается, что в условии даны 2 неотрицательных числа M и N.
+// Примеры на рекурсию, в т. ч. Аккерман:
+//https://www.bestprog.net/ru/2019/01/14/examples-of-tasks-solving-on-recursion-in-c-programming-language-ru/#q05
 
 
 int ReadInt(string text)
@@ -14,7 +16,8 @@ int ReadInt(string text)
         }
         return result;
 }
-
+//функция Аккермана  дважды рекурсивна:
+// один из аргументов функции есть та же рекурсивная функция.
     int Acker(int M, int N)
     {
         if (M == 0)
