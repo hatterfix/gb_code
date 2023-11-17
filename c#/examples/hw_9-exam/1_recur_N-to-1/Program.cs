@@ -5,7 +5,8 @@
 //Функция для ввода числа N:
 
 int ReadInt(string text)
-
+// модификатор result добавлен для исключения ошибки ввода чисел < 0
+// Метод TryParse используется для его обработки по условиям ввода в цикле while
 {
         int result;
         while (!int.TryParse(System.Console.ReadLine(), out result) || result <= 0)
