@@ -1,6 +1,6 @@
 ## tmp.py
 c = 5.86
-print(c)
+print(type(c))
 #меняем тип переменной на int
 n = int(c)
-print(n)
+print(type(n))

@@ -310,5 +310,10 @@ print(c)
 #меняем тип переменной на int
 n = int(c)
 print(n)
+
+#Подсветить типы двнных (type) в выводе:
+print(type(c))
+print(type(n))
+
 ```
 </details>
