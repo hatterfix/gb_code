@@ -295,5 +295,10 @@ c = "somestring"
 
 print (f"{a} - {b} - {c}")
 ```
+Ввод данных:
 
+```sh
+a = input()
+print(a)
+```
 </details>
