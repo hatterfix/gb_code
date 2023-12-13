@@ -274,4 +274,13 @@ python3 tmp.py
 
 Запуск кода а VSCode - Ctrl + F5 / Run & debug (gui) :
 
+
+Переменные с пустым объявленным и пустым (none) и стоковым (" " ; ' ') значением:
+
+```sh
+n = 6
+n = none
+n = "somestring"
+```
+
 </details>
