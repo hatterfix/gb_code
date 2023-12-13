@@ -298,7 +298,8 @@ print (f"{a} - {b} - {c}")
 Ввод данных:
 
 ```sh
-a = input()
+#a = input()
+a = input("Введите число: ")
 print(a)
 ```
 </details>
