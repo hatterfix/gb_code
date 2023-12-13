@@ -1,4 +1,6 @@
 ## tmp.py
-#a = input()
-a = input("Введите число: ")
-print(a)
+c = 5.86
+print(c)
+#меняем тип переменной на int
+n = int(c)
+print(n)
