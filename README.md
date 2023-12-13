@@ -257,3 +257,9 @@ System.Console.WriteLine($"\nСумма положительных: {sumP}") ;
 System.Console.WriteLine($"\nСумма отрицательных: {sumN}") ;
 ```
 </details>
+
+<details><summary><b>### Python</b></summary>
+
+#### Примечание:
+
+</details>
