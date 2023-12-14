@@ -1,14 +1,9 @@
 ## tmp.py
-username = input('Введите имя: ')
+n = 423
+sum = 0
 
-if username == 'Маша' or username == 'Mawa':
-    print("Ура, это же МАША!")
-
-elif username == 'Марина':
-    print("Я так ждала Вас, Марина!")
-
-elif username == 'Ильнар':
-    print('Ильнар - топ)')
-
-else:
-    print('Привет, ', username)
+while n > 0:
+    x=n % 10
+    sum = sum + x
+    n = n // 10
+print("Сумма элементов числа = " , sum)
