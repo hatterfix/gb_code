@@ -11,7 +11,7 @@ print(text[:]) # съешь ещё этих мягких французских 
 
 print(text[:2]) # съ
 
-print(text[len(text)-2:]) # ок
+print(text[len(text)-2:]) # OK
 
 print(text[2:9]) # ешь ещё
 
