@@ -410,4 +410,17 @@ for i in range(5):
         line += "*"
     print(line)
 ```
+
+- Примеры работы со строками:
+  больще в крайнем коммите lect_1
+  ```sh
+text = 'съешь ещё этих мягких французских булок'
+
+print(text[1]) #ъ
+print(text[len(text)-1])  #к
+print(text[-5]) #6
+print(text[:2]) # съ
+print(text[len(text)-2:]) # ок
+print(text[2:9]) # ешь ещё
+  ```
 </details>
