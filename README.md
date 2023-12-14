@@ -379,7 +379,7 @@ print(i)
 ```
 
 - Метод флажка flag = true / false:
-
+- i++ (C#) это i += 1 (Python)
 Пример: 
 ```sh
 n = int(input("Введите число: "))
