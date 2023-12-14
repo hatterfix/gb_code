@@ -361,4 +361,20 @@ while n > 0:
 print("Сумма элементов числа = " , sum)
 
 ```
+
+Прерывание цикла - break
+
+Пример:
+```sh
+i = 6
+while i < 5:
+    if i == 3:
+        break
+    i = i + 1
+else:
+    print("Пожалуй")
+    print('хватит )')
+
+print(i)
+```
 </details>

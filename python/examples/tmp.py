@@ -1,9 +1,11 @@
 ## tmp.py
-n = 423
-sum = 0
+i = 6
+while i < 5:
+    if i == 3:
+        break
+    i = i + 1
+else:
+    print("Пожалуй")
+    print('хватит )')
 
-while n > 0:
-    x=n % 10
-    sum = sum + x
-    n = n // 10
-print("Сумма элементов числа = " , sum)
+print(i)
