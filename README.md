@@ -397,4 +397,17 @@ while flag:
         flag = False
     i += 1
 ```
+
+- Функция range() -выводит значения в диапазоне с щагом (по-умолчанию 1)
+- Пример, вместе с вложенным циклом:
+
+```sh
+#выведет 5 строк х5 *
+line =" "
+for i in range(5):
+    line = ""
+    for j in range(5):
+        line += "*"
+    print(line)
+```
 </details>
