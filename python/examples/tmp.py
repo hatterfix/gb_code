@@ -1,6 +1,14 @@
 ## tmp.py
-a = 7.86672162
-b = 5.42767261
-print(type(a))
-print(type(b))
-print(round(a*b, 3))
+username = input('Введите имя: ')
+
+if username == 'Маша' or username == 'Mawa':
+    print("Ура, это же МАША!")
+
+elif username == 'Марина':
+    print("Я так ждала Вас, Марина!")
+
+elif username == 'Ильнар':
+    print('Ильнар - топ)')
+
+else:
+    print('Привет, ', username)
