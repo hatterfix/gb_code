@@ -14,15 +14,18 @@ public class PhoneBook {
         contacts.computeIfAbsent(name, k -> new HashSet<>()).add(phone);
     }
 
-    // Выводим контакты на экран, по убыванию количества номеров
-    public void displayContacts() {
-        // Преобразуем записи из телефонной книге в поток, затем сортируем
-        contacts.entrySet().stream()
-                .sorted((e1, e2) -> Integer.compare(e2.getValue().size(), e1.getValue().size()))
-                .forEach(entry -> System.out.println(entry.getKey() + ": " + entry.getValue()));
-        
-        System.out.println("Total contacts: " + contacts.size());
-    }
+// Выводим контакты на экран, по убыванию количества номеров
+public void displayContacts() {
+    // Преобразуем записи из телефонной книге в поток, затем сортируем
+    contacts.entrySet().stream()
+            .sorted((e1, e2) -> Integer.compare(e2.getValue().size(), e1.getValue().size()))
+            .forEach(entry -> {
+                System.out.println(entry.getKey() + ": ");
+                entry.getValue().forEach(phone -> System.out.println("\t" + phone));
+            });
+    
+    System.out.println("Total contacts: " + contacts.size());
+}
     
     // Демонстрация работы 
     public static void main(String[] args) {
