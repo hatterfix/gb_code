@@ -20,6 +20,8 @@ public class PhoneBook {
         contacts.entrySet().stream()
                 .sorted((e1, e2) -> Integer.compare(e2.getValue().size(), e1.getValue().size()))
                 .forEach(entry -> System.out.println(entry.getKey() + ": " + entry.getValue()));
+        
+        System.out.println("Total contacts: " + contacts.size());
     }
     
     // Демонстрация работы 
