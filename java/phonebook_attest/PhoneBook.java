@@ -18,4 +18,23 @@ public class PhoneBook {
                 .sorted((e1, e2) -> Integer.compare(e2.getValue().size(), e1.getValue().size()))
                 .forEach(entry -> System.out.println(entry.getKey() + ": " + entry.getValue()));
     }
+        //------------------------------------------------------------------------
+        //------------------------------------------------------------------------
+    // Демонстрация работы 
+    public static void main(String[] args) {
+        // Экземпляр класса PhoneBook
+        PhoneBook phoneBook = new PhoneBook();
+
+        // Формирую книгу
+        phoneBook.addContact("Alice", "71112223344");
+        phoneBook.addContact("Alice", "71112223345");
+        phoneBook.addContact("Andy", "72223334455");
+        phoneBook.addContact("Andy", "72223334456");
+        phoneBook.addContact("Andy", "72223334457");
+        phoneBook.addContact("Kate", "73334445566");
+
+
+        // Вывод на экран
+        phoneBook.displayContacts();
+    }
 }
